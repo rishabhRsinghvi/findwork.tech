@@ -1,0 +1,25 @@
+{
+  "name": "findwork-tech",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm:start --prefix backend\" \"npm:start --prefix frontend\"",
+    "start:frontend": "npm start --prefix frontend",
+    "start:backend": "npm start --prefix backend"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
