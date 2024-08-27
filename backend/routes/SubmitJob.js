@@ -1,10 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-// In-memory job storage (replace with database for production)
 const jobs = [];
 
-// Job Submission Endpoint
 router.post('/', (req, res) => {
   const newJob = req.body;
   jobs.push(newJob);  // Store in memory for now
