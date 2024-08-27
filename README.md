@@ -1,5 +1,5 @@
 # findwork.tech
-Building a Job Board/Portal that targets low KD, High Volume keywords (especially long tail key words).
+Building a Job Board/Portal Micro-Saas that targets low KD, High Volume keywords (especially long tail key words).
 
 ![image](https://github.com/user-attachments/assets/25df4a9e-e250-4569-b26e-47827e2b87df)
 
